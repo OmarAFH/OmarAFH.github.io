@@ -1,19 +1,58 @@
 html, body {
     width: 100%;
     height: 100%;
-    background-image: url(BG2.jpg);
+    background-image: url(BG3.jpg);
     }
 
-h2, h6 {
+h1, h2, h3, h5 {
     padding-left: 120px;
     }
-p, span {
+
+p, span, h3 {
     padding-left: 120px;
     font-size: 24px;
-   }
-title {
-
     }
-h2 {
 
+h2, {
+    font-size: 48px;
+    font-family: "CarterOneX";
+    }
+
+@font-face {
+    font-family: "PartridgeThin";
+    src: url(PartridgeThin.ttf);
+    }
+
+p, span, h3, h5 {
+    font-family: "PartridgeThin";
+    font-weight: 900;
+    }
+
+@font-face {
+    font-family: "CarterOneX";
+    src: url(CarterOne.ttf);
+    }
+
+h1 {
+    font-size: 48px;
+    font-family: "CarterOneX";
+    }
+
+h1, h2, h3, h5, p, span {
+    color: white;
+      }
+
+img {
+    height: 240px;
+    width: 360px;
+    padding-left: 120px;
+    float: "left";
+    }
+
+.AboutMepage {
+    padding-left: 300px;
+    }
+
+li a, a.navbar-brand {
+    font-family: "CarterOneX";
     }
