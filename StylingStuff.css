@@ -42,7 +42,7 @@ h1, h2, h3, h5, p, span {
     color: white;
       }
 
-img {
+img.ProfilePic {
     height: 240px;
     width: 360px;
     padding-left: 120px;
@@ -55,4 +55,10 @@ img {
 
 li a, a.navbar-brand {
     font-family: "CarterOneX";
+    }
+
+img.PostImage {
+  float: "left";
+  width: 70%;
+  padding-left: 120px;
     }
